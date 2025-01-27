@@ -79,6 +79,10 @@ git_clone https://github.com/alanthie/notcurses.git "${FOLDER}/notcurses"
 cd "${FOLDER}/notcurses"
 if [ -d "${FOLDER}/notcurses/build" ]; then
 	echo "Directory already exist ${FOLDER}/notcurses/build ..."
+	cd "${FOLDER}/notcurses/build"
+	make
+	# TODO - detect change in lib...
+	# sudo make install
 else
 	mkdir build
 	cd build
@@ -94,6 +98,8 @@ git_clone https://github.com/libevent/libevent.git  "${FOLDER}/libevent"
 cd "${FOLDER}/libevent"
 if [ -d "${FOLDER}/libevent/build" ]; then
 	echo "Directory already exist ${FOLDER}/libevent/build ..."
+	cd "${FOLDER}/libevent/build"
+	make
 else
 	mkdir build
 	cd build
@@ -106,6 +112,8 @@ fi
 # /home/alain/dev/libevent/include/event2/
 if [ -f "${FOLDER}/libevent/include/event2/event-config.h" ]; then
 	echo "File already exist ${FOLDER}/libevent/include/event2/event-config.h..."
+	# TODO - detect change in file...
+	# cp "${FOLDER}/libevent/build/include/event2/event-config.h" "${FOLDER}/libevent/include/event2/"
 else
 	cp "${FOLDER}/libevent/build/include/event2/event-config.h" "${FOLDER}/libevent/include/event2/"
 fi
@@ -118,6 +126,9 @@ fi
 cd "${FOLDER}/cryptochat2"
 if [ -d "${FOLDER}/cryptochat2/build" ]; then
 	echo "Directory already exist ${FOLDER}/cryptochat2/build ..."
+	cd "${FOLDER}/cryptochat2/build"
+	cmake ..
+	make
 else
 	mkdir build
 	cd build
@@ -125,16 +136,20 @@ else
 	make
 fi
 
-exit
+#exit
 
 #  ------------------------------------------------------
-#  EXTRA - remove previous exit if want the extra tool
+#  EXTRA - remove previous exit if want this tool
 #  Encryptions
 #  ------------------------------------------------------
 git_clone   https://github.com/libntl/ntl.git  "${FOLDER}/ntl"
 cd "${FOLDER}/ntl/src"
 if [ -f "${FOLDER}/ntl/src/ntl.a" ]; then
 	echo "Lib already exist ${FOLDER}/ntl/src/ntl.a ..."
+	cd "${FOLDER}/ntl/src"
+	make
+	# TODO - detect change in lib...
+	# sudo make install
 else
 	./configure 
 	make
@@ -145,6 +160,8 @@ git_clone   https://github.com/alanthie/Encryptions.git "${FOLDER}/Encryptions"
 cd "${FOLDER}/Encryptions"
 if [ -d "${FOLDER}/Encryptions/build" ]; then
 	echo "Directory already exist ${FOLDER}/Encryptions/build ..."
+	cd "${FOLDER}/Encryptions/build"
+	make
 else
 	mkdir build
 	cd build

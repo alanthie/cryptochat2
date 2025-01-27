@@ -6,7 +6,7 @@
 #include <ctype.h>
 
 #include "../include/vigenere.hpp"
-
+ 
 
 namespace cryptoAL_vigenere
 {

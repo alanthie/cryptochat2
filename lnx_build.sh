@@ -3,7 +3,7 @@
 #	 if your downloaded in /home/allaptop/dev/cryptochat2
 #	 then FOLDER="/home/allaptop/dev"
 #	
-#	
+#	 Using sudo apt - You may need to change it for your distro
 #  ------------------------------------------------------
 FOLDER="/home/allaptop/dev"
 

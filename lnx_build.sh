@@ -48,8 +48,8 @@ function git_clone()
 }
 
 # MANUAL 
-#sudo get update
-#sudo get upgrade
+#sudo apt update
+#sudo apt upgrade
 
 install_pkg g++
 install_pkg build-essential

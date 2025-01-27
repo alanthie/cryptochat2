@@ -1,0 +1,46 @@
+-----------------------
+SFML
+Install:
+sudo apt-get install libsfml-dev
+
+Show what is installed:
+dpkg -L libsfml-dev
+
+Check version in
+/usr/include/SFML/Config.hpp
+#define SFML_VERSION_MAJOR 2
+#define SFML_VERSION_MINOR 4
+#define SFML_VERSION_PATCH 2
+
+-----------------------
+OpenCV
+Install:
+sudo apt-get update
+sudo apt-get install libopencv-dev
+
+Show what is installed:
+dpkg -L libopencv-dev
+
+-----------------------
+Get sources:
+git clone https://github.com/alanthie/LearnTool.git
+cd LearnTool
+
+Building:
+mkdir build  
+cd build  
+cmake ..  
+make  
+
+Install (TODO):
+make install 
+
+Run:
+goto build directory
+./mediaviewer ../../mediaviewer/prj/LearnTool.ini
+./learntool ../prj/LearnTool_AL.ini
+
+./res sub folder must be present
+ffmpeg must be present (to extract sound from mp4)
+
+

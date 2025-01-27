@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+
+<Quiz>
+	<Type>one_response</Type>
+	<Subject>Plant Identification</Subject>
+	<Question>What is the name of this plant?</Question>
+	<Image> ../dandelion.jpg</Image>
+	<Choice>
+		<Text>Dandelion</Text>
+		<Response>true</Response>
+	</Choice>
+	<Choice>
+		<Text>Burdock</Text>
+		<Response>false</Response>
+	</Choice>
+	<Choice>
+		<Text>Sow Thistle</Text>
+		<Response>false</Response>
+	</Choice>
+	<Choice>
+		<Text>Salsify</Text>
+		<Response>false</Response>
+	</Choice>
+</Quiz>
+
+

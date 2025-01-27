@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\SFML_SDK">
+      <UniqueIdentifier>{fad4276b-2de8-48f2-a7a2-47b025b262e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ini_parser">
+      <UniqueIdentifier>{23d49e70-0ae4-422e-ac3d-5389fec2a039}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\filesystem">
+      <UniqueIdentifier>{32c006e1-bd3f-4f06-83a2-bc574e8f7e4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\tinyfiledialogs">
+      <UniqueIdentifier>{1d480373-2ece-42af-88c5-536072827375}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\tinyxml">
+      <UniqueIdentifier>{5cce28b4-abb1-4bb3-bf92-a8c3c21db366}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SFML_SDK\Game.cpp">
+      <Filter>Source Files\SFML_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SFML_SDK\GUI\Button.cpp">
+      <Filter>Source Files\SFML_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SFML_SDK\GUI\StackMenu.cpp">
+      <Filter>Source Files\SFML_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SFML_SDK\GUI\Textbox.cpp">
+      <Filter>Source Files\SFML_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SFML_SDK\GUI\Widget.cpp">
+      <Filter>Source Files\SFML_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SFML_SDK\ResourceManager\ResourceHolder.cpp">
+      <Filter>Source Files\SFML_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SFML_SDK\States\StatePlaying.cpp">
+      <Filter>Source Files\SFML_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SFML_SDK\Util\Animation.cpp">
+      <Filter>Source Files\SFML_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SFML_SDK\Util\FileUtil.cpp">
+      <Filter>Source Files\SFML_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SFML_SDK\Util\FPSCounter.cpp">
+      <Filter>Source Files\SFML_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SFML_SDK\Util\Maths.cpp">
+      <Filter>Source Files\SFML_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SFML_SDK\Util\ToggleKey.cpp">
+      <Filter>Source Files\SFML_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UIState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UIMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SFML_SDK\GUI\Minimap.cpp">
+      <Filter>Source Files\SFML_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FolderNavigation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\VideoCapture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tinyfiledialogs\tinyfiledialogs.c">
+      <Filter>Source Files\tinyfiledialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SFML_SDK\GUI\ProgressBar.cpp">
+      <Filter>Source Files\SFML_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tinyxml2\tinyxml2.cpp">
+      <Filter>Source Files\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SFML_SDK\GUI\GuiQuiz.cpp">
+      <Filter>Source Files\SFML_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Quiz.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\Config.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\filesystem\fwd.h">
+      <Filter>Source Files\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\filesystem\path.h">
+      <Filter>Source Files\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\filesystem\resolver.h">
+      <Filter>Source Files\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\filesystem\windirent.h">
+      <Filter>Source Files\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SFML_SDK\Game.h">
+      <Filter>Source Files\SFML_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SFML_SDK\GUI\Button.h">
+      <Filter>Source Files\SFML_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SFML_SDK\GUI\StackMenu.h">
+      <Filter>Source Files\SFML_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SFML_SDK\GUI\Textbox.h">
+      <Filter>Source Files\SFML_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SFML_SDK\GUI\Widget.h">
+      <Filter>Source Files\SFML_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SFML_SDK\ResourceManager\ResourceHolder.h">
+      <Filter>Source Files\SFML_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SFML_SDK\ResourceManager\ResourceManager.h">
+      <Filter>Source Files\SFML_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SFML_SDK\States\StateBase.h">
+      <Filter>Source Files\SFML_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SFML_SDK\States\StatePlaying.h">
+      <Filter>Source Files\SFML_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SFML_SDK\Util\Animation.h">
+      <Filter>Source Files\SFML_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SFML_SDK\Util\FileUtil.h">
+      <Filter>Source Files\SFML_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SFML_SDK\Util\FPSCounter.h">
+      <Filter>Source Files\SFML_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SFML_SDK\Util\Maths.h">
+      <Filter>Source Files\SFML_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SFML_SDK\Util\NonCopyable.h">
+      <Filter>Source Files\SFML_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SFML_SDK\Util\NonMoveable.h">
+      <Filter>Source Files\SFML_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SFML_SDK\Util\Random.h">
+      <Filter>Source Files\SFML_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SFML_SDK\Util\ToggleKey.h">
+      <Filter>Source Files\SFML_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ini_parser\ini_parser.hpp">
+      <Filter>Source Files\ini_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SFML_SDK\GUI\Minimap.h">
+      <Filter>Source Files\SFML_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\VideoCapture.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\FolderNavigation.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\UIState.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\UIMain.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\tinyfiledialogs\tinyfiledialogs.h">
+      <Filter>Source Files\tinyfiledialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SFML_SDK\GUI\ProgressBar.h">
+      <Filter>Source Files\SFML_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\tinyxml2\tinyxml2.h">
+      <Filter>Source Files\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Quiz.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SFML_SDK\GUI\GuiQuiz.h">
+      <Filter>Source Files\SFML_SDK</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

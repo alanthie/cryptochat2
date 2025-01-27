@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="lnx_chatsrv" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/lnx_chatsrv" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="-cfg srvcfg.txt" />
+				<Compiler>
+					<Add option="-std=gnu++20" />
+					<Add option="-g" />
+					<Add option="-lcurl" />
+					<Add option="-lgmp" />
+					<Add option="-lgmpxx" />
+					<Add option="-levent" />
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/13/include" />
+					<Add directory="/home/alain/dev/libevent/include" />
+				</Compiler>
+				<Linker>
+					<Add option="-lcurl" />
+					<Add option="-lgmp" />
+					<Add option="-lgmpxx" />
+					<Add option="-levent" />
+					<Add option="-levent_pthreads" />
+					<Add directory="/home/allaptop/dev/libevent/build/lib" />
+					<Add directory="/home/alain/dev/libevent/build/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/lnx_chatsrv" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="-cfg srvcfg.txt" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=gnu++20" />
+					<Add option="-lcurl" />
+					<Add option="-lgmp" />
+					<Add option="-lgmpxx" />
+					<Add option="-levent" />
+					<Add directory="/home/allaptop/dev/libevent/include" />
+					<Add directory="/home/alain/dev/libevent/include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-lcurl" />
+					<Add option="-lgmp" />
+					<Add option="-lgmpxx" />
+					<Add option="-levent" />
+					<Add option="-levent_pthreads" />
+					<Add directory="/home/allaptop/dev/libevent/build/lib" />
+					<Add directory="/home/alain/dev/libevent/build/lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=gnu++20" />
+			<Add option="-fexceptions" />
+			<Add option="-lcurl" />
+			<Add option="-lgmp" />
+			<Add option="-lgmpxx" />
+			<Add directory="/home/allaptop/dev/wide-decimal" />
+			<Add directory="/home/allaptop/dev/libevent/include" />
+			<Add directory="/home/allaptop/dev/cryptochatal/lnx_chatsrv/" />
+			<Add directory="/home/allapop/dev/wide-integer" />
+			<Add directory="/home/alain/dev/wide-integer" />
+			<Add directory="/home/alain/dev/libevent/include" />
+			<Add directory="/home/alain/dev/wide-decimal" />
+		</Compiler>
+		<Linker>
+			<Add option="-lcurl" />
+			<Add option="-lgmp" />
+			<Add option="-lgmpxx" />
+			<Add option="-levent" />
+		</Linker>
+		<Unit filename="../include/Base64.h" />
+		<Unit filename="../include/IDEA.hpp" />
+		<Unit filename="../include/Menu.h" />
+		<Unit filename="../include/SHA256.h" />
+		<Unit filename="../include/argparse.hpp" />
+		<Unit filename="../include/base_const.hpp" />
+		<Unit filename="../include/c_plus_plus_serializer.h" />
+		<Unit filename="../include/cfg_srv.hpp" />
+		<Unit filename="../include/chat_srv.hpp" />
+		<Unit filename="../include/crc32a.hpp" />
+		<Unit filename="../include/crypto_const.hpp" />
+		<Unit filename="../include/crypto_server1.hpp" />
+		<Unit filename="../include/data.hpp" />
+		<Unit filename="../include/encrypt.h" />
+		<Unit filename="../include/machineid.h" />
+		<Unit filename="../include/msgio/proto_client.h" />
+		<Unit filename="../include/msgio/proto_server.h" />
+		<Unit filename="../include/msgio/proto_utils.h" />
+		<Unit filename="../include/netw_msg.hpp" />
+		<Unit filename="../include/qa/RSA-GMP/RSAGMP.cpp" />
+		<Unit filename="../include/qa/RSA-GMP/RSAGMPPrime.cpp" />
+		<Unit filename="../include/qa/RSA-GMP/RSAGMPTest.cpp" />
+		<Unit filename="../include/qa/RSA-GMP/RSAGMPUtils.cpp" />
+		<Unit filename="../include/qa/RSA_generate/bigint/BigInteger.cc" />
+		<Unit filename="../include/qa/RSA_generate/bigint/BigInteger.hh" />
+		<Unit filename="../include/qa/RSA_generate/bigint/BigIntegerAlgorithms.cc" />
+		<Unit filename="../include/qa/RSA_generate/bigint/BigIntegerAlgorithms.hh" />
+		<Unit filename="../include/qa/RSA_generate/bigint/BigIntegerLibrary.hh" />
+		<Unit filename="../include/qa/RSA_generate/bigint/BigIntegerUtils.cc" />
+		<Unit filename="../include/qa/RSA_generate/bigint/BigIntegerUtils.hh" />
+		<Unit filename="../include/qa/RSA_generate/bigint/BigUnsigned.cc" />
+		<Unit filename="../include/qa/RSA_generate/bigint/BigUnsigned.hh" />
+		<Unit filename="../include/qa/RSA_generate/bigint/BigUnsignedInABase.cc" />
+		<Unit filename="../include/qa/ecc_point/ecc_curve.cpp" />
+		<Unit filename="../include/qa/ecc_point/ecc_elgamal.cpp" />
+		<Unit filename="../include/qa/exclusive-lock-file.cpp" />
+		<Unit filename="../include/random_engine.hpp" />
+		<Unit filename="../include/rng.h" />
+		<Unit filename="../include/terminal.h" />
+		<Unit filename="../include/terminal_base.h" />
+		<Unit filename="../include/vigenere.hpp" />
+		<Unit filename="../include/ysClient.h" />
+		<Unit filename="../include/ysNodeV4.h" />
+		<Unit filename="../include/ysServer.h" />
+		<Unit filename="../src/Base64.cpp" />
+		<Unit filename="../src/SHA256.cpp" />
+		<Unit filename="../src/chat_server_main.cpp" />
+		<Unit filename="../src/crc32a.cpp" />
+		<Unit filename="../src/crypto_file.cpp" />
+		<Unit filename="../src/crypto_keymgr.cpp" />
+		<Unit filename="../src/crypto_server.cpp" />
+		<Unit filename="../src/crypto_server1.cpp" />
+		<Unit filename="../src/encdec_algo.cpp" />
+		<Unit filename="../src/encrypt.cpp" />
+		<Unit filename="../src/machineid.cpp" />
+		<Unit filename="../src/msgio/proto_client.cpp" />
+		<Unit filename="../src/msgio/proto_server.cpp" />
+		<Unit filename="../src/msgio/proto_utils.cpp" />
+		<Unit filename="../src/netw_msg.cpp" />
+		<Unit filename="../src/socket_node.cpp" />
+		<Unit filename="../src/srv_test.cpp" />
+		<Unit filename="../src/twofish.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../src/twofish_cfb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../src/vigenere.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

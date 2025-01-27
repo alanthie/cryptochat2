@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="lnxprj" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/lnxprj" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/lnxprj" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="../src/Config.hpp" />
+		<Unit filename="../src/FolderNavigation.cpp" />
+		<Unit filename="../src/FolderNavigation.h" />
+		<Unit filename="../src/Quiz.cpp" />
+		<Unit filename="../src/Quiz.h" />
+		<Unit filename="../src/UIMain.cpp" />
+		<Unit filename="../src/UIMain.h" />
+		<Unit filename="../src/UIState.cpp" />
+		<Unit filename="../src/UIState.h" />
+		<Unit filename="../src/VideoCapture.cpp" />
+		<Unit filename="../src/VideoCapture.hpp" />
+		<Unit filename="../src/main.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

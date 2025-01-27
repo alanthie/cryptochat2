@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="lnx_chatcli" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/lnx_chatcli" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="-cfg clicfg.txt" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="-lgmp" />
+					<Add option="-lcurl" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/lnx_chatcli" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-lnotcurses" />
+					<Add library="../../notcurses/build/libnotcurses.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=gnu++20" />
+			<Add option="-fexceptions" />
+			<Add option="-lgmp" />
+			<Add option="-lcurl" />
+			<Add option="-lgmpxx" />
+			<Add directory="../../libevent/include" />
+			<Add directory="../../wide-decimal" />
+			<Add directory="../../wide-integer" />
+		</Compiler>
+		<Linker>
+			<Add option="-lgmp" />
+			<Add option="-lcurl" />
+			<Add option="-lgmpxx" />
+			<Add option="-lnotcurses" />
+			<Add option="-lnotcurses-core" />
+			<Add library="../../notcurses/build/libnotcurses.a" />
+			<Add library="../../notcurses/build/libnotcurses-core.a" />
+			<Add directory="../../libevent/build/lib" />
+		</Linker>
+		<Unit filename="../include/AESa.cpp" />
+		<Unit filename="../include/Base64.h" />
+		<Unit filename="../include/Buffer.hpp" />
+		<Unit filename="../include/DES.cpp" />
+		<Unit filename="../include/IDEA.hpp" />
+		<Unit filename="../include/Menu.h" />
+		<Unit filename="../include/SHA256.h" />
+		<Unit filename="../include/SymAlg.cpp" />
+		<Unit filename="../include/argparse.hpp" />
+		<Unit filename="../include/base_const.hpp" />
+		<Unit filename="../include/c_plus_plus_serializer.h" />
+		<Unit filename="../include/cfg_cli.hpp" />
+		<Unit filename="../include/cfg_srv.hpp" />
+		<Unit filename="../include/chat_cli.hpp" />
+		<Unit filename="../include/chat_srv.hpp" />
+		<Unit filename="../include/client_term.hpp" />
+		<Unit filename="../include/crc32a.hpp" />
+		<Unit filename="../include/crypto_const.hpp" />
+		<Unit filename="../include/data.hpp" />
+		<Unit filename="../include/decryptor.hpp" />
+		<Unit filename="../include/encrypt.h" />
+		<Unit filename="../include/encryptor.hpp" />
+		<Unit filename="../include/lnx_conio.h" />
+		<Unit filename="../include/menuuser.hpp" />
+		<Unit filename="../include/netw_msg.hpp" />
+		<Unit filename="../include/qa/Bin2PNG/lodepng.cpp" />
+		<Unit filename="../include/qa/RSA-GMP/RSAGMP.cpp" />
+		<Unit filename="../include/qa/RSA-GMP/RSAGMPPrime.cpp" />
+		<Unit filename="../include/qa/RSA-GMP/RSAGMPTest.cpp" />
+		<Unit filename="../include/qa/RSA-GMP/RSAGMPUtils.cpp" />
+		<Unit filename="../include/qa/RSA_generate/bigint/BigInteger.cc" />
+		<Unit filename="../include/qa/RSA_generate/bigint/BigInteger.hh" />
+		<Unit filename="../include/qa/RSA_generate/bigint/BigIntegerAlgorithms.cc" />
+		<Unit filename="../include/qa/RSA_generate/bigint/BigIntegerAlgorithms.hh" />
+		<Unit filename="../include/qa/RSA_generate/bigint/BigIntegerLibrary.hh" />
+		<Unit filename="../include/qa/RSA_generate/bigint/BigIntegerUtils.cc" />
+		<Unit filename="../include/qa/RSA_generate/bigint/BigIntegerUtils.hh" />
+		<Unit filename="../include/qa/RSA_generate/bigint/BigUnsigned.cc" />
+		<Unit filename="../include/qa/RSA_generate/bigint/BigUnsigned.hh" />
+		<Unit filename="../include/qa/RSA_generate/bigint/BigUnsignedInABase.cc" />
+		<Unit filename="../include/qa/RSA_generate/bigint/BigUnsignedInABase.hh" />
+		<Unit filename="../include/qa/SystemProperties.cpp" />
+		<Unit filename="../include/qa/aes-whitebox/aes.cc" />
+		<Unit filename="../include/qa/aes-whitebox/aes_whitebox.hpp" />
+		<Unit filename="../include/qa/aes-whitebox/aes_whitebox_base.hpp" />
+		<Unit filename="../include/qa/ecc_point/ecc_curve.cpp" />
+		<Unit filename="../include/qa/ecc_point/ecc_elgamal.cpp" />
+		<Unit filename="../include/qa/exclusive-lock-file.cpp" />
+		<Unit filename="../include/random_engine.hpp" />
+		<Unit filename="../include/repository.hpp" />
+		<Unit filename="../include/rng.h" />
+		<Unit filename="../include/socket_node.hpp" />
+		<Unit filename="../include/terminal.h" />
+		<Unit filename="../include/terminal_base.h" />
+		<Unit filename="../include/vigenere.hpp" />
+		<Unit filename="../include/ysClient.h" />
+		<Unit filename="../include/ysNodeV4.h" />
+		<Unit filename="../include/ysServer.h" />
+		<Unit filename="../src/Base64.cpp" />
+		<Unit filename="../src/SHA256.cpp" />
+		<Unit filename="../src/chat_client_main.cpp" />
+		<Unit filename="../src/client_term.cpp" />
+		<Unit filename="../src/crc32a.cpp" />
+		<Unit filename="../src/crypto_client.cpp" />
+		<Unit filename="../src/crypto_file.cpp" />
+		<Unit filename="../src/crypto_keymgr.cpp" />
+		<Unit filename="../src/encdec_algo.cpp" />
+		<Unit filename="../src/encrypt.cpp" />
+		<Unit filename="../src/includes.cpp" />
+		<Unit filename="../src/machineid.cpp" />
+		<Unit filename="../src/nc_terminal.cpp" />
+		<Unit filename="../src/netw_msg.cpp" />
+		<Unit filename="../src/socket_node.cpp" />
+		<Unit filename="../src/twofish.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../src/twofish.h" />
+		<Unit filename="../src/twofish_cfb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../src/vigenere.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

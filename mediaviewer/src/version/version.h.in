@@ -1,0 +1,40 @@
+//-------------------------------------------------------------------
+//  Learn tool
+//  https://github.com/...
+//  Created:     2018...
+//  Copyright (C) 2018 ...
+//-------------------------------------------------------------------
+
+#ifndef __LEARN_TOOL_VERSION_H__
+#define __LEARN_TOOL_VERSION_H__
+
+namespace learntool
+{
+
+struct version final
+{
+    static constexpr int major() noexcept
+    {
+        return ${LEARNTOOL_VERSION_MAJOR};
+    }
+
+    static constexpr int minor() noexcept
+    {
+        return ${LEARNTOOL_VERSION_MINOR};
+    }
+
+    static constexpr int patch() noexcept
+    {
+        return ${LEARNTOOL_VERSION_PATCH};
+    }
+
+    static constexpr char const* get_as_string() noexcept
+    {
+        return "${LEARNTOOL_VERSION_MAJOR}.${LEARNTOOL_VERSION_MINOR}.${LEARNTOOL_VERSION_PATCH}";
+    }
+};
+
+} // namespace learntool
+
+#endif // !__LEARN_TOOL_VERSION_H__
+

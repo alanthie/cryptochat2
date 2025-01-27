@@ -1,0 +1,69 @@
+RELEASE LINUX:
+/home/allaptop/dev/cryptochatal/build/lnx_chatcli/lnx_chatcli
+/home/allaptop/dev/cryptochatal/build/lnx_chatsrv/lnx_chatsrv
+/home/allaptop/dev/cryptochatal/build/mediaviewer/mediaviewer
+/home/allaptop/dev/cryptochatal/mediaviewer/prj/res
+
+DEPENDENCIES:
+sudo apt-get update
+sudo apt-get install build-essential
+sudo apt-get install libunistring-dev
+sudo apt-get install libcurl4-gnutls-dev
+sudo apt-get install libsfml-dev
+sudo apt-get install libopencv-dev
+sudo apt install ffmpeg
+
+----------------------------------------------------------
+Maybe some of:
+sudo apt-get install libgmp-dev
+sudo apt-get install libcurl4-gnutls-dev
+
+apt-get install 
+	build-essential 
+	cmake 
+	doctest-dev 
+	libavdevice-dev 
+	libdeflate-dev 
+	libgpm-dev 
+	libncurses-dev 
+	libqrcodegen-dev 
+	libswscale-dev 
+	libunistring-dev 
+	pandoc 
+	pkg-config
+	
+	/home/allaptop/dev/libevent/build/lib/libevent.a
+	/home/allaptop/dev/libevent/build/lib/libevent_pthreads.a
+----------------------------------------------------------
+
+objdump -p  ./lnx_chatcli/lnx_chatcli | grep NEEDED 
+  NEEDED               libunistring.so.5
+  NEEDED               libcurl-gnutls.so.4
+  NEEDED               libstdc++.so.6
+  NEEDED               libm.so.6
+  NEEDED               libgcc_s.so.1
+  NEEDED               libc.so.6
+
+ objdump -p  ./lnx_chatsrv/lnx_chatsrv | grep NEEDED 
+  NEEDED               libcurl-gnutls.so.4
+  NEEDED               libstdc++.so.6
+  NEEDED               libm.so.6
+  NEEDED               libgcc_s.so.1
+  NEEDED               libc.so.6
+  
+objdump -p  ./mediaviewer/mediaviewer | grep NEEDED 
+  NEEDED               libsfml-system.so.2.6
+  NEEDED               libsfml-window.so.2.6
+  NEEDED               libsfml-graphics.so.2.6
+  NEEDED               libsfml-audio.so.2.6
+  NEEDED               libopencv_videoio.so.406
+  NEEDED               libopencv_imgcodecs.so.406
+  NEEDED               libopencv_imgproc.so.406
+  NEEDED               libopencv_core.so.406
+  NEEDED               libstdc++.so.6
+  NEEDED               libm.so.6
+  NEEDED               libgcc_s.so.1
+  NEEDED               libc.so.6
+
+
+

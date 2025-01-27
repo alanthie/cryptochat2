@@ -1,0 +1,396 @@
+000 innerbark
+000 innerbark\alders
+000 innerbark\balsar poplar
+000 innerbark\basswood
+000 innerbark\birch
+000 innerbark\cedar
+000 innerbark\cottonwoods
+000 innerbark\elm
+000 innerbark\firs
+000 innerbark\hemlock
+000 innerbark\larches
+000 innerbark\pine
+000 innerbark\spruce
+000 innerbark\trembling aspen
+000 innerbark\white ash
+000 innerbark\willow
+000 method
+000 pdf
+000 video
+Acorns (fruit)
+Agoseris (leave, flower, root juice as gum)
+Alders (American Green Alder) (catkin, buds, innerbark)
+Alfalfa (leave, oil, seed)
+Amaranth - see Pigweed
+Arrowhead - see root
+Asparagus Officinalis (shoot, roasted seed)
+Barberries (fruit, leave)
+Barberries (fruit, leave)\American barberry ON
+Barberries (fruit, leave)\Common barberry
+Barberries (fruit, leave)\Japanese barberry
+Bearberry (fruit)
+Bearberry (fruit)\Alpine bearberry
+Bearberry (fruit)\Common bearberry - Arctostaphylos uva-ursi
+Bearberry (fruit)\Red bearberry
+Bedstraw (leave, roasted seed)
+Bedstraw (leave, roasted seed)\cleavers
+Bedstraw (leave, roasted seed)\northern bedstraw
+Bedstraw (leave, roasted seed)\sweet scented bedstraw
+Bistort (leave, root, seed)
+Bistort (leave, root, seed)\Alpine Bistort (Bistorta vivipara)
+Bittercress (leave, root)
+Bittercress (leave, root)\Cardamine diphylla - toothwort (leave, root)
+Bittercress (leave, root)\Cardamine pensylvanica
+Black Huckleberry (fruit)
+Black Medick (roasted seeds, leaves)
+Black Nightshade (fruit, young leave, new shoot)
+Blackberry (fruit)
+Blackberry (fruit)\Allegheny blackberry
+Blue Cohosh (roasted seed)
+Blue Cohosh (roasted seed)\Purple Flower
+Blue Cohosh (roasted seed)\Yellow Flower
+Blue eyed grasses (leave)
+Blue eyed grasses (leave)\Mountain
+Blue eyed grasses (leave)\NARROW
+Blue eyed grasses (leave)\Needle tip
+Blue vervain (seed)
+Blueberry (fruit)
+Blueberry (fruit)\Bog
+Blueberry (fruit)\Dwarf
+Blueberry (fruit)\Highbush
+Blueberry (fruit)\Lowbush
+Blueberry (fruit)\Oval leaved
+Blueberry (fruit)\Velvet
+Brooklime (leave, stem, flower)
+Brooklime (leave, stem, flower)\veronica americana
+Brooklime (leave, stem, flower)\veronica officinalis
+Brooklime (leave, stem, flower)\veronica serpyllifolia
+Bugleweed - see root
+Bugleweed - see root\Lycopus americanus
+Bugleweed - see root\Lycopus uniflorus
+Bulrush - see root
+Bulrush - see root\Schoenoplectus acutus
+Bulrush - see root\Schoenoplectus tabernaemontani
+Bunchberry (fruit)
+Burdock - see root
+Burdock - see root\Arctium lappa
+Burdock - see root\Arctium minus
+Burdock - see root\Arctium tomentosum
+Cactus USA (fruit, leave, seed)
+Canada Mayflower (fruit)
+Canada lily - see root lilies
+Canadian Horseweed (leave)
+Carrion flower - see root
+Carrion flower - see root\smilax rotundifolia
+Catnip (leave)
+Cattail - see root
+Chamomiles (dried flower tea)
+Chamomiles (dried flower tea)\German chamomile Mtricaria chamomilla
+Chamomiles (dried flower tea)\Pineapple-weed Matricaria discoidea
+Cherries (fruit, seed)
+Cherries (fruit, seed)\Black
+Cherries (fruit, seed)\Chokecherry
+Cherries (fruit, seed)\Pin
+Cherries (fruit, seed)\Sand
+Chickweed (leave, seed)
+Chicory - see root
+Chufa - see root
+Clammy Ground Cherry (fruit)
+Cleavers - bedstraw (leave)
+Cleavers - bedstraw (leave)\Bedstraw
+Cleavers - bedstraw (leave)\Galium aparine
+Cleavers - bedstraw (leave)\Galium boreale
+Cleavers - bedstraw (leave)\Galium triflorum
+Clintonia (leave)
+Clintonia (leave)\Yellow (leaves)
+Clover (flower, leave, root, seed sprout)
+Clover (flower, leave, root, seed sprout)\hybrid
+Clover (flower, leave, root, seed sprout)\red
+Clover (flower, leave, root, seed sprout)\white
+Cocklebur (leave, seed)
+Cocklebur (leave, seed)\Xanthium strumarium
+Coltfoot - tussilago-farfara (flower, leave, oil)
+Coltsfoots (flower, leave, root, stem)
+Coltsfoots (flower, leave, root, stem)\Arrow-leaved coltsfoot (Petasites sagittatus)
+Coltsfoots (flower, leave, root, stem)\Petasites frigidus
+Comfrey (leave)
+Common Motherwort (flower)
+Common Orache (leave, seed)
+Common Orache (leave, seed)\common
+Common Orache (leave, seed)\garden
+Common Pawpaw (fruit) ON
+Common Sweet Clover (flower, leave, root, seedpod)
+Common reed - see root
+Common sweetgrass (seed)
+Coneflower (leave)
+Corn Lily (Clintonia borealis) (leave)
+Cow-lily (leave, root, seed)
+Crabgrass (seed)
+Cranberry (fruit)
+Cranberry (fruit)\Bog
+Cranberry (fruit)\Cranberry
+Cranberry (fruit)\Lingonberry
+Crowberry (Empetrum nigrum) (fruit, twig tea)
+Currant (fruit)
+Currant (fruit)\Black Currant
+Currant (fruit)\Golden Currant
+Currant (fruit)\Norther black currant
+Currant (fruit)\Red swamp currant
+Dandelion (flower, leave, root)
+Devil Club_ON - see root
+Ditch-stonecrop (leaves)
+Dock (leave, seed, stem)
+Dock (leave, seed, stem)\Curled dock
+Dock (leave, seed, stem)\Western dock
+Dock (leave, seed, stem)\Willow dock
+Dogwood (fruit, oil, seed)
+Dogwood (fruit, oil, seed)\eastern
+Dogwood (fruit, oil, seed)\red-oisier
+Elderberry (flower, fruit, shoot)
+Elderberry (flower, fruit, shoot)\common
+Elderberry (flower, fruit, shoot)\red
+Eurasian water-milfoi (root)
+Evening Primrose - see root
+Eyebright (leave)
+Eyebright (leave)\euphrasia nemorosa
+Eyebright (leave)\euphrasia subarctica
+Fairybell_ON (fruit)
+False solomon's-seal - see root
+False virginia creeper (tendril, young leave)
+Feverwort (roasted seed coffee)
+Feverwort (roasted seed coffee)\Feverwort (roasted seed coffee)
+Feverwort (roasted seed coffee)\Horse gentian
+Field Pennycress (leaves, oil, seed)
+Fireweed (Flower, leaves, root, stem)
+Fireweed (Flower, leaves, root, stem)\Broad-leaved
+Fireweed (Flower, leaves, root, stem)\Common
+Flaxes (Oil, seeds)
+Flaxes (Oil, seeds)\Blue
+Flaxes (Oil, seeds)\Common
+Flaxes (Oil, seeds)\Prairie
+Fleabane (leaves)
+Fleabane (leaves)\Eastern daisy
+Fleabane (leaves)\Philadelphia
+Foxtail grass (seeds)
+Giant Hyssop (leave, seed)
+Giant Hyssop (leave, seed)\Yellow - agastache nepetoides
+Ginseng - see root
+Glasswort (seed, stem)
+Golden Alexander (flower)
+Golden Currant - see currant
+Goldenrod (flower, leave, oil, seed)
+Goldenrod (flower, leave, oil, seed)\Canada
+Goldenrod (flower, leave, oil, seed)\Giant
+Goldenrod (flower, leave, oil, seed)\Missouri
+Goldenrod (flower, leave, oil, seed)\Northern
+Gooseberry (fruit, leave)
+Gooseberry (fruit, leave)\coastal black - BC
+Gooseberry (fruit, leave)\northern
+Grape (fruit, leave, sap)
+Grape (fruit, leave, sap)\Riverbank
+Grape (fruit, leave, sap)\Summer
+Grass (seed)
+Great mullein (dried leave tea)
+Ground Cherry (fruit)
+Ground Ivy (leave)
+Groundnut - root
+Hawthorn (fruit)
+Hawthorn (fruit)\Cockspur
+Hawthorn (fruit)\Fleshy
+Henbit (leave)
+High Mallow - see mallow
+Hops (leave, root)
+Horehound (leave)
+Horehound (leave)\marrubium vulgare
+Horse Gentian (roasted seed)
+Horse Gentian (roasted seed)\Feverwort
+Horse Gentian (roasted seed)\Horse
+Horsetail Common (Root, Shoot)
+Horsetail Common (Root, Shoot)\Common scouring rush
+Huckleberry Black (fruit)
+Huckleberry Black (fruit)\Gaylussacia baccata
+Huckleberry Black (fruit)\Vaccinium membranaceum
+Hyssop (leave)
+Indian Pipe (all)
+Indian Strawberry (fruit, leave)
+Indian-Tobacco(medicine)
+Jack-in-the-pulpit (see roots)
+Jerusalem Artichoke - see root
+Jewelweed - Impatiente du cap (leave, seed, stem)
+Jewelweed - Impatiente du cap (leave, seed, stem)\Pale touch
+Jewelweed - Impatiente du cap (leave, seed, stem)\Spotted
+Juneberries - see serviceberry
+Juniper (fruit)
+Juniper (fruit)\Common
+Juniper (fruit)\Creeping
+Knotweed (leave, root, seed, stem)
+Knotweed (leave, root, seed, stem)\Common Knotweed Polygonum aviculare
+Knotweed (leave, root, seed, stem)\Common Smartweed persicaria hydropiper
+Knotweed (leave, root, seed, stem)\Japanase Knotweed
+Knotweed (leave, root, seed, stem)\Mountain Knotweed polygonum douglasii
+Knotweed (leave, root, seed, stem)\Spotted Knotweed Persicaria maculosa
+Labrador Tea (leave tea)
+Lamb's Quarter (flower, leave, seed)
+Lilies of the valley (fruit)
+Lousewort (leave)
+Lousewort (leave)\Canadian
+Lousewort (leave)\Elephanthead
+Lovage (leave, root, seed, stem)
+Lovage (leave, root, seed, stem)\Beach
+Mallow (leave, seed)
+Mallow (leave, seed)\Common Mallow
+Mallow (leave, seed)\High mallow
+Mallow (leave, seed)\Musk Mallow
+Marsh-marigold - see root
+Mayapple (fruit)
+Mayweed (leave)
+Milkweed (flower, leave, oil, seed, stem)
+Milkweed (flower, leave, oil, seed, stem)\Common
+Milkweed (flower, leave, oil, seed, stem)\Swamp
+Mint - see wild mint
+Mock Pennyroyal (leave)
+Mock Pennyroyal (leave)\Eastern
+Mock Pennyroyal (leave)\Western
+Mountain Ash (fruit)
+Mountain Ash (fruit)\American
+Mountain Ash (fruit)\European
+Mountain Sorrel (leave)
+Mulberries (fruit,leave) ON
+Mulberries (fruit,leave) ON\red
+Mulberries (fruit,leave) ON\white
+New Jersey Tea (dried leave tea)
+New england aster (medicinal)
+Northern water plantain - see root
+Oraches - Epinard Francais (leave, seed)
+Oraches - Epinard Francais (leave, seed)\Common Orache
+Oraches - Epinard Francais (leave, seed)\Garden Orache
+Partridge Berry (fruit)
+Pearly Everlasting (leave)
+Peppergrass (leave, seedpod)
+Pickerel weed (leave, seed)
+Pigweed amaranthus (leave, seed)
+Pigweed amaranthus (leave, seed)\redroot pigweed - A. retroflexus
+Pigweed amaranthus (leave, seed)\smooth pigweed - amaranthus hybridus
+Pitcher Plant (leave)
+Plantains (leave, root, seed)
+Plantains (leave, root, seed)\Common
+Plantains (leave, root, seed)\Narrow-leaved
+Plums (fruit, seed)
+Plums (fruit, seed)\american
+Plums (fruit, seed)\canada plum
+Pokeweed (fruit, leave)
+Prickly-Pear Cacti_ON (fruit, leave, seed)
+Prickly-Pear Cacti_ON (fruit, leave, seed)\opuntia fragilis
+Purslane - Pourpier potager (leave, seed)
+Quickweed (flower, leave, stem)
+Quickweed (flower, leave, stem)\Quickweed - Galinsoga parviflora
+Quickweed (flower, leave, stem)\Shaggy Quickweed
+Ragweed (oil)
+Ragweed (oil)\Common
+Ragweed (oil)\Great
+Raspberry (fruit, stem)
+Raspberry (fruit, stem)\arctic
+Raspberry (fruit, stem)\cloudberry
+Raspberry (fruit, stem)\dewberry
+Raspberry (fruit, stem)\eastern
+Raspberry (fruit, stem)\western
+Raspberry (fruit, stem)\wild red
+Rattlesnake plantain (gum)
+Salal (BC) (fruit)
+Sea buckthorn (fruit, oil)
+Sea sandwort (leave, seed)
+Self Heal (leave)
+ServiceBerry - amelanchier (fruit)
+ServiceBerry - amelanchier (fruit)\Saskatoon Berry
+ServiceBerry - amelanchier (fruit)\canada
+ServiceBerry - amelanchier (fruit)\downy
+Sheep Sorrel (leave, root, seed)
+Skunk cabbage (poison - dried root) - see root
+Spice Bush - ON (leave, twig, fruit)
+Spiderwort (flower, leave)
+Spring beauty - see root
+Stinging Nettle (leave, oil)
+Stinging Nettle (leave, oil)\dog nettle - urtica urens
+Stork Bill (leave, stem)
+Stork Bill (leave, stem)\dovefoot geranium
+Strawberry (fruit)
+Strawberry (fruit)\Wild S
+Strawberry (fruit)\Wood S
+Sumac (fruit, oil)
+Sumac (fruit, oil)\Smooth
+Sumac (fruit, oil)\Staghorn
+Sundews (juice)
+Sundews (juice)\Great
+Sundews (juice)\Round leaved
+Sunflower - BC, ON (flower, oil, seed, stem)
+Sunflower - BC, ON (flower, oil, seed, stem)\Common sunflower - (eat seed)
+Sunflower - BC, ON (flower, oil, seed, stem)\Prairie sunflower - (eat seed)
+Sweet Gale (fruit, leave)
+Sweet fern (leave tea, nutlets)
+Tall Coneflower (stem)
+Tansy (flower, leave)
+Thistles - see root
+Thistles - see root\Bull thistle
+Thistles - see root\Canada thistle
+Trillium (leave)
+Trillium (leave)\Red
+Trillium (leave)\White trillium
+Trout Lily - see root
+Twining Honeysuckle (fruit)
+Twisted Stalk (fruit, leave, root)
+Twisted Stalk (fruit, leave, root)\Clasping
+Twisted Stalk (fruit, leave, root)\Rosy
+Vervain (seed)
+Vervain (seed)\Blue
+Violet (flower, leave)
+Violet (flower, leave)\Canada
+Violet (flower, leave)\Common blue
+Violet (flower, leave)\Early blue
+Violet (flower, leave)\Johnyy-jump
+Violet (flower, leave)\Marsh
+Viper Bugloss (leave)
+Watercress (leave, seed)
+Watercress (leave, seed)\Common
+Watercress (leave, seed)\Mars Yellowcress
+Wild Bergamot (flower, leave)
+Wild Bergamot (flower, leave)\Basil Balm
+Wild Carrot - see root
+Wild Geranium (see Stork-Bill)
+Wild Ginger - see root
+Wild Leeks - see root
+Wild Mint (leave)
+Wild Mint (leave)\Peppermint
+Wild Mint (leave)\Spearmint
+Wild Mint (leave)\Wild Mint
+Wild Mustard (leave, root)
+Wild Mustard (leave, root)\black mustard
+Wild Mustard (leave, root)\field mustard
+Wild Onion - see root
+Wild Onion - see root\Canada garlic
+Wild Rice (seed, stem)
+Wild Rice (seed, stem)\northern wild rice - zizania palustris
+Wild Rice (seed, stem)\wild rice - zizania aquatica
+Wild Rose (flower, fruit, seed, stem)
+Wild Rose (flower, fruit, seed, stem)\Large hip
+Wild Rose (flower, fruit, seed, stem)\Prickly
+Wild Sage (leave)
+Wild Sage (leave)\Annual Wormwood
+Wild Sage (leave)\Mugwort
+Wild lettuce (leave, shoot, oil)
+Wild lettuce (leave, shoot, oil)\canadian wild lettuce
+Wild lettuce (leave, shoot, oil)\prickly lettuce
+Wild lettuce (leave, shoot, oil)\tall blue lettuce
+Wintercress (flower, leave)
+Wintercress (flower, leave)\Barbarea vulgaris
+Wintergreen (fruit, seed)
+Wintergreen (fruit, seed)\moneses uniflora (Fruit, Seed)
+Wintergreen (fruit, seed)\orthilia secunda (Seed)
+Wintergreen (fruit, seed)\pyrola elliptica
+Wintergreen (fruit, seed)\pyrola rotundifolia
+Wood sorrel (flower, leave)
+Wood sorrel (flower, leave)\Creeping
+Wood sorrel (flower, leave)\Stolon
+Wood sorrel (flower, leave)\Upright
+Yarrow - Achilles millefeuille (leave)
+Yew (fruit without seed)
+Yew (fruit without seed)\Canada yew

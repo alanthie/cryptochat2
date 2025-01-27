@@ -1,0 +1,30 @@
+recv() Error 4 Interrupted System Call - on RESIZE event
+Error 4, or EINTR, is a common issue in socket programming, particularly when using blocking I/O calls like recv(). It occurs when a signal interrupts the system call, causing it to return prematurely with an error.
+
+Causes:
+Signal delivery: A signal (e.g., SIGALRM, SIGINT, SIGUSR1) is sent to the process while it’s blocked in the recv() system call.
+Timeouts: If a timeout is set for the socket (e.g., using setsockopt() with SO_RCVTIMEO), and the timeout elapses while waiting for data, recv() will return with EINTR.
+System resource constraints: In some cases, system resource constraints (e.g., memory pressure, disk I/O) can cause the kernel to interrupt the system call.
+Handling EINTR:
+
+Retry the system call: The application should retry the recv() system call to continue waiting for data. This is the recommended approach, as it allows the system call to complete or timeout as intended.
+Use non-blocking I/O: If possible, consider using non-blocking I/O (e.g., SO_NONBLOCK socket option) to avoid blocking and reduce the likelihood of EINTR.
+Signal handling: Implement signal handlers to catch and ignore signals that might interrupt the system call. However, this approach is generally not recommended, as it can lead to complex and error-prone code.
+Example code:
+
+To retry the system call, you can use a loop like this:
+
+int err;
+while ((err = recv(sock, buffer, length, flags)) < 0 && errno == EINTR) {
+    // retry
+}
+if (err < 0) {
+    // handle error
+}
+
+Additional tips:
+
+Always check the return value and errno after a system call to determine the cause of the error.
+Use perror() or strerror() to print a human-readable error message.
+Consider logging or debugging the issue to identify the root cause.
+In the context of the provided search results, the issue was likely caused by a signal interrupting the recv() system call in the PyTorch data loader. The solution was to retry the system call or use a non-blocking I/O approach.

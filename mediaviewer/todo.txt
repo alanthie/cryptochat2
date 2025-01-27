@@ -1,0 +1,21 @@
+TODO list
+
+[DONE]          Put config parameters validations in class Config - not in main.cpp
+[DONE]          Read videos (mp4) images with OpenCV
+[DONE]          Extract videos sound and play it (ffmpeg.exe to extract sound into a wav file)
+[DONE]          Add default speed for images/video in class Config
+[DONE]          Add button to increase/decrease image/video speed
+[DONE]          Move files manipulation (next_path, ...) into a helper class like FolderNavigation
+[Simple]        Add texture to buttons, add some defaults to Config
+[Simple]        Add more fonts and add a default font in Config
+[DONE]          Create quiz files (*.quiz) and manage the quiz questions/answers on the screen
+[DONE]          Fix minimap selection rectangle
+[DONE]          Add an XML parser (tinyxml2 )for *.quiz and maybe also for the config file
+[DONE]          Add an option to shows multiple images simultaneously on screen
+[Average]       Random quiz of N topics with/without scores
+[Average]       Put back changed library code into own maintained library [Filesystem, SFML_SDK, ini_parser, ...]
+[Simple]        Add a fading transition between images (optional - set in config file)
+[Very Complex]  Add dynamic SFML small game *.game.dll - Define game virtual interface [load/play/stop/unload/...] - Use Boost.DLL
+[DONE]          Add button to save an image from the video into a file in current path (generate unique name)
+[DONE]      	Add a navigation bar for the video. Add buttons to change video speed (+/-).
+[DONE]      	Add a folder selection button.

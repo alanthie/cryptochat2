@@ -1,0 +1,109 @@
+void writecb(struct bufferevent *bev, void *ctx){
+   struct evbuffer *tmp = evbuffer_new();
+   evbuffer_add_printf(tmp, "HTTP/1.1 100 Continue\r\n\r\n");
+   bufferevent_write_buffer(bev, tmp);
+   evbuffer_free(tmp);
+   printf("finish sending data back to client!\n");
+}
+
+Here you described a good example of infinite loop:
+
+writecb was invoked by libevent (because there is enough room on OUTPUT side)
+
+inside writecb you generating new data and writing it into the OUTPUT by bufferevent_write_buffer. Then writecb returns context back to libevent main loop.
+
+libevent is passing all the data from OUTPUT to the kernel. And when done, libevent sees that a free place became available in OUTPUT buffer. This generates next writecb event and the callback is invoked again... And here is the infinite loop.
+
+-----------------------------------
+bufferevent writes the data via the event loop (it waits EV_WRITE and only after this it can write to fd), so first of all you need to make sure that the callback is not executed from the same thread as the thread that executes event loop for that bufferevent, if this is true than this should work (otherwise it is not possible, by obvious reasons)
+
+want this to be writing only, don't actually want to accept user input at the time or handling socket closure even.
+
+You just need to disable EV_READ, i.e. bufferevent_disable(bev,EV_READ)
+-------------------------------------------------------------------------------------
+I know that I can close a socket connection by calling bufferevent_free(), but I don't understand how use it to close connection every time I send an echo to the socket.
+static vo
+       perror("Error from bufferevent");
+        if (events & (BEV_EVENT_EOF | BEV_EVENT_ERROR)) {
+                bufferevent_free(bev);
+        }
+}
+From my understanding of documentation - you should put bufferevent_free(bev); at the end of echo_event_cb() function, this should close the connection after echoing user data back w/o waiting the client to close it. This should work this way till you use BEV_OPT_CLOSE_ON_FREE when creating bev buffer event.
+
+-------------------------------------------------------------------------------------
+https://archives.seul.org/libevent/users/May-2012/msg00007.html
+
+On Fri, May 11, 2012 at 5:07 AM, Alexander Klauer
+<alexander.klauer@xxxxxxxxxxxxxx> wrote:
+> Hi,
+>
+> I'm new to libevent and have the following problem with bufferevents.
+> I have a server talking to many clients. Very occasionally (when the
+> number of clients is around 1000 or larger), the server writes a
+> message to the client, which is read by the client (strace shows that
+> readv() is successfully called) but the read callback of the client is
+> not invoked. Subsequently, both server and client side of the
+> connection wait for input in epoll_wait() until timeout.
+>
+> The problem exhibits itself with libevent 2.0.16, 2.0.19 and the 2.1.1
+> alpha. I'm using a default event base (level-triggered I/O) with
+> default watermarks. Surely, I must be making a simple mistake
+> somewhere, like introducing a race condition, but I can't find it.
+>
+> I made a simple program which demonstrates the behaviour:
+>
+> http://pastebin.com/FaCuCwU5
+>
+> Compile with gcc -std=gnu99 -Wall -pedantic test.c -levent and run
+> with ./a.out [number of clients].
+> For me, with 500 clients, everything is fine, while with 1000 clients,
+> a few connections stall. Make sure you set your file descriptor limit
+> sufficiently high.
+>
+> Any help is appreciated.
+
+So, there are a couple of issues in the code to look at, and a couple
+of points in the Libevent code where you could start debugging.
+
+Issues in your example:
+
+* In server_read_cb, you do an evbuffer_add() to queue data to be sent
+followed immediately by a bufferevent_free() on the same buffer.
+That's not a safe pattern: bufferevent_free() does not guarantee how
+much data (if any) is sent before the bufferevent gets closed.
+
+* In server_read_cb, you don't handle partial writes.  There is no
+guarantee that the entire message from the client, including the
+newline, will arrive in a single readv call.  (When it's all on
+localhost, it *should* work ok with a few small messages, but it's not
+a habit to get into)
+
+* You're using LEV_OPT_DEFERRED_ACCEPT, but your protocol doesn't
+entitle you to do that.  LEV_OPT_DEFERRED_ACCEPT tells the OS kernel
+that it does not have to not treat the connection as having been
+accepted until the client actually writes something.  Your clients
+don't write anything until they *get* a message, so Linux doesn't need
+to tell Libevent "hey, you could accept some more sockets" until they
+do.
+
+When I fixed the first and third issue above, your example started
+working for me.  I tested it with 2048 pairs of sockets.
+
+yrs,
+-- 
+Nick
+-------------------------------------------------------------------------------------
+The write callback is invoked when the bufferevent's output buffer
+becomes "drained enough". Usually, that means that some data was
+written, and the output buffer is now empty. You can make it so that
+the write callback happens even on nonempty buffers by setting a write
+low-watermark.
+
+This is documented in
+http://www.wangafu.net/~nickm/libevent-book/Ref6_bufferevent.html
+-------------------------------------------------------------------------------------
+https://stackoverflow.com/questions/15995659/libevent-writes-to-the-socket-only-after-second-buffer-write
+I met the problem, too! I spent one day on this problem. At last, I solved it.
+
+When the thread you call event_base_dispatch, it will be asleep until any semaphore wakes it up. So, when it sleeps, you call bufferevent_write, the bufferevent's fd adds to the event list, but it won't be epoll until next time. So you must send semaphore to wake up the dispatch thread after you called bufferevent_write. The way you can use is set up an event bind pair socket and add it to event_base. Then send 1 byte anytime when you need to wake up the disptach thread.
+-------------------------------------------------------------------------------------

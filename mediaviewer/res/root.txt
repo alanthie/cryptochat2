@@ -1,0 +1,199 @@
+000 videos
+001 root garden
+alumroot heuchera - ON (leave)
+alumroot heuchera - ON (leave)\american
+alumroot heuchera - ON (leave)\richardson
+amaranth - see plant pigweed
+angelica atropurpurea - ON - (root, leave, stem)
+arrowhead (root)
+arrowhead (root)\arum-leaved arrowhead
+arrowhead (root)\wapato
+avens (root)
+avens (root)\large-leaved avens - geum macrophyllum
+avens (root)\water avens - geum rivale
+beargrass - BC (root)
+bedstraw (shoot, leave, roasted seed, root as tea)
+bedstraw (shoot, leave, roasted seed, root as tea)\Cleaver - Galium aparine
+bedstraw (shoot, leave, roasted seed, root as tea)\northern bedstraw
+bedstraw (shoot, leave, roasted seed, root as tea)\sweet scented bedstraw
+bistorts (leave, root, seed)
+bittercresses (leave, seedpod, root)
+bittercresses (leave, seedpod, root)\Cardamine diphylla - toothwort
+bittercresses (leave, seedpod, root)\Cardamine pensylvanica
+blessed thistle ON (flower, leave oil, root)
+buckbean (dried root)
+bugleweeds (root)
+bugleweeds (root)\lycopus americanus
+bugleweeds (root)\lycopus uniflorus
+bulrushes (leave, pollen, root, seed)
+bulrushes (leave, pollen, root, seed)\great (soft)
+bulrushes (leave, pollen, root, seed)\hard
+burdocks (leave, root, stem, seed)
+burdocks (leave, root, stem, seed)\Common B -Arctium minus
+burdocks (leave, root, stem, seed)\Great B - Arctium lappa
+burdocks (leave, root, stem, seed)\Woolly B - Arctium tomentosum
+camases - ON (root)
+camases - ON (root)\POISON death-camas zigadenus
+caraway (leave, root, seed)
+cardamine bulbosa (Spring Cress)
+carrion flower greenbrier smilax (leave, root)
+carrion flower greenbrier smilax (leave, root)\Carrion-flower
+carrion flower greenbrier smilax (leave, root)\Common Greenbrier
+cattail (flower, leave, oil, pollen, root, seed, stem)
+chicory (flower, leave, root)
+chocolate-tips (Lomatium dissectum) (BC)
+chufa (leave_stem, oil, root)
+clovers (flower, leave, root, seed)
+clovers (flower, leave, root, seed)\hybrid
+clovers (flower, leave, root, seed)\red
+clovers (flower, leave, root, seed)\white
+common Sweet Clover  (flower, leave, root, seedpod)
+common cow parsnip (see cow parsnip) (flower, leave, root, stem)
+common cow parsnip (see cow parsnip) (flower, leave, root, stem)\POISON Water-Hemlock
+common evening primrose (flower, leave, oil, root, seedpod)
+common reed (leave, root, seed, seed)
+coneflowers (flower, flowerbud, leave)
+cow parsnip (flower, leave, root, stem)
+creeping bellflower (leave, root)
+dandelion (all)
+devil club (shrub) ON (leave, root)
+dogbanes - medecine
+eel Grass (BC - root, leaves, seed)
+elecampane (leave, root)
+false Solomon seal (fruit, shoot, root)
+fern Bracken (Fiddlehead, Root)
+fern Cinnamon (Fiddlehead, Frond tips)
+fern Cinnamon (Fiddlehead, Frond tips)\osmunda cinnamomea
+fern Lady (Fiddlehead, root)
+fern Ostrich (Fiddlehead, root)
+fern Rock Polypody (Root)
+fern Rock Polypody (Root)\polypodium virginianum
+fern Woodfern (root)
+fern Woodfern (root)\Dryopteris carthusiana
+fern Woodfern (root)\Dryopteris cristata
+fern Woodfern (root)\dryopteris expansa
+fern Woodfern (root)\dryopteris filix-mas
+fern christmas (Fiddlehead, Root)
+fern licorice BC (root)
+fragrant Water-lily (flower, leave, root, seed)
+fritillaries - BC
+gentias (root)
+gentias (root)\gentianella amarella
+gentias (root)\gentianopsis detonsa
+ginseng (root)
+ginseng (root)\american ginseng
+ginseng (root)\dwarf ginseng
+golden club (DRIED ROOT, seed)
+great bur reed (root, stem)
+greenbrier - see carrion
+groundnut (root, seed, seedpod)
+harbinger of spring (root)
+hedge woundwort (Stachys Sylvatica)
+honewort (flower, leave, root, stem)
+hops (leave, root)
+horseradish (leave, root, seed)
+horsetail scouring_rush (root, stem)
+hyssop stachys hyssopifolia (leave, root)
+indian cucumber (root)
+jack-in-the-pulpit DRIED ROOT (root)
+japanase knotweed (leave, root, seed, stem)
+jerusalem artichoke (root)
+kamchatka Lily (BC) (root, seedpod)
+lilies (flower, leave, root)
+lilies (flower, leave, root)\Canada lily
+lilies (flower, leave, root)\Common Day Lily
+lilies (flower, leave, root)\Wood lily
+lupines_BC (root, seed, seedpod)
+lupines_BC (root, seed, seedpod)\Nootka
+malva neglecta - mallow (leave, seed)
+marsh marigolds (flower, leave, root)
+milk thistle (flower, leave, oil, root, stem)
+orpine (leave, root)
+oxeye daisy (leave, root)
+plantain (leave, root, seed)
+plantain (leave, root, seed)\Common
+plantain (leave, root, seed)\Narrow-leaved
+purslane  (leave, seed, root)
+puttyroot (root)
+quackgrass (leave, root, seed)
+rock polypody (root)
+roseroot (leave, root, stem)
+roseroot (leave, root, stem)\rhodiola rosea
+sagebrush Mariposa Lily (root, buds)
+salsifies (flower, leave, root, seed, stem)
+salsifies (flower, leave, root, seed, stem)\common
+salsifies (flower, leave, root, seed, stem)\meadow
+salsifies (flower, leave, root, seed, stem)\yellow
+sarsaparillasv(fruit, leave, root)
+sarsaparillasv(fruit, leave, root)\Hairy
+sarsaparillasv(fruit, leave, root)\Spikenard
+sarsaparillasv(fruit, leave, root)\Wild
+sassafras - ON (leave, root, twig chew)
+sea milkwort (leave, root)
+sheep sorrel (leave, root, seed)
+shepherd purse (leave, oil, seed, root)
+silverweeds (leave, root)
+silverweeds (leave, root)\cinquefoil
+silverweeds (leave, root)\silverweed
+skunk cabbage (DRIED ROOT, dried young leave)
+sneezeweed - chewing gum
+solomon seal (shoot, root)
+sow-thistles (leave, root, stem)
+sow-thistles (leave, root, stem)\Annual
+sow-thistles (leave, root, stem)\Perennial
+sow-thistles (leave, root, stem)\Prickly
+spikenard (fruit, shoot, root)
+spring beauty (leave, stem, root)
+spring beauty (leave, stem, root)\Carolina
+spurge nettle (root)
+stonecrops (leave, shoot, root)
+stonecrops (leave, shoot, root)\sedum divergens
+swamp hedge nettle (leave, root, stem)
+swamp hedge nettle (leave, root, stem)\Stachys palustris
+sweet cicelys (root)
+sweet vetches (root)
+sweet vetches (root)\bear root Hedysarum alpinum
+sweet vetches (root)\bear root Hedysarum alpinum\hedysarum mackenzii POISON
+sweet vetches (root)\hedysarum boreale
+sweetflag (leave, root, stem)
+sweetflag (leave, root, stem)\American sweetflag
+sweetflag (leave, root, stem)\Sweetflag
+sword fern (root)
+thistles (flower, leave, oil, root, seed, stem)
+thistles (flower, leave, oil, root, seed, stem)\Bull thistle
+thistles (flower, leave, oil, root, seed, stem)\Canada thistle
+three leaf goldthread (all)
+trout lily (flower, leave, root)
+tuberous water lilies (root leached, seed)
+valerians (root,seed)
+valerians (root,seed)\common valerian
+valerians (root,seed)\sitka
+water arum (fruit ried, DRIED ROOT, DRIED SEEDS)
+water parsnip (root)
+water parsnip (root)\POISON Water Hemlock
+water parsnip (root)\Poison hemlock
+water plantain (leave, root)
+watershield (coated leave, root)
+wild carrot (flower, root)
+wild chives (flower, leave, root)
+wild garlic (flower, leave, root)
+wild ginger (root, leave tea)
+wild ginger (root, leave tea)\Canada
+wild ginger (root, leave tea)\Western - BC
+wild lettuce (leave, shoot, oil)
+wild lettuce (leave, shoot, oil)\canadian wild lettuce
+wild lettuce (leave, shoot, oil)\prickly lettuce
+wild lettuce (leave, shoot, oil)\tall blue lettuce
+wild licorice (leave, root)
+wild mustard (leave, seed, stem)
+wild mustard (leave, seed, stem)\black mustard
+wild mustard (leave, seed, stem)\field mustard
+wild onion (flower, leave, root)
+wild onion (flower, leave, root)\Canada garlic
+wild onion (flower, leave, root)\Wild leek
+wild parsnip (leave, root, seed)
+wild potato-vine (root)
+woodferns (leave, root)
+yarrow - Achilles millefeuille (leave)
+yellow Avalanche Lily (BC) (root, leave, seedpod)
+yellow pond lilies (leave, root, seed)

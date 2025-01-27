@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{9D9A3803-BCCC-4B4E-AF3C-9E76FD7E35D9}</ProjectGuid>
+    <RootNamespace>prj</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\000Lib\SFML-2.5.0-windows-vc15-64-bit\SFML-2.5.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>..\..\..\000Lib\SFML-2.5.0\include;..\src;..\..\..\000Lib\opencv\modules\imgcodecs\include;..\..\..\000Lib\opencv\modules\videoio\include;..\..\..\000Lib\opencv\modules\highgui\include;..\..\..\000Lib\opencv\modules\core\include;..\..\..\000Lib\opencv\builds;..\..\..\000Lib\opencv\modules\imgproc\include;..\..\..\000Lib\opencv\\include;..\..\..\000Lib\opencv\modules\calib3d\include;..\..\..\000Lib\opencv\modules\features2d\include;..\..\..\000Lib\opencv\modules\flann\include;..\..\..\000Lib\opencv\modules\dnn\include;..\..\..\000Lib\opencv\modules\ml\include;..\..\..\000Lib\opencv\modules\objdetect\include;..\..\..\000Lib\opencv\modules\photo\include;..\..\..\000Lib\opencv\modules\shape\include;..\..\..\000Lib\opencv\modules\stitching\include;..\..\..\000Lib\opencv\modules\superres\include;..\..\..\000Lib\opencv\modules\video\include;..\..\..\000Lib\opencv\modules\videostab\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MinimalRebuild>false</MinimalRebuild>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>sfml-audio-d.lib;sfml-graphics-d.lib;sfml-main-d.lib;sfml-system-d.lib;sfml-window-d.lib;lib\Debug\opencv_imgproc400d.lib;3rdparty\lib\Debug\ippiwd.lib;3rdparty\ippicv\ippicv_win\lib\intel64\ippicvmt.lib;lib\Debug\opencv_core400d.lib;lib\Debug\opencv_ts400d.lib;lib\Debug\opencv_highgui400d.lib;lib\Debug\opencv_videoio400d.lib;lib\Debug\opencv_imgcodecs400d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\..\000Lib\SFML-2.5.0\lib;..\..\..\000Lib\opencv\builds;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>..\..\..\000Lib\SFML-2.5.0\include;..\src;..\..\..\000Lib\opencv\modules\imgcodecs\include;..\..\..\000Lib\opencv\modules\videoio\include;..\..\..\000Lib\opencv\modules\highgui\include;..\..\..\000Lib\opencv\modules\core\include;..\..\..\000Lib\opencv\builds;..\..\..\000Lib\opencv\modules\imgproc\include;..\..\..\000Lib\opencv\\include;..\..\..\000Lib\opencv\modules\calib3d\include;..\..\..\000Lib\opencv\modules\features2d\include;..\..\..\000Lib\opencv\modules\flann\include;..\..\..\000Lib\opencv\modules\dnn\include;..\..\..\000Lib\opencv\modules\ml\include;..\..\..\000Lib\opencv\modules\objdetect\include;..\..\..\000Lib\opencv\modules\photo\include;..\..\..\000Lib\opencv\modules\shape\include;..\..\..\000Lib\opencv\modules\stitching\include;..\..\..\000Lib\opencv\modules\superres\include;..\..\..\000Lib\opencv\modules\video\include;..\..\..\000Lib\opencv\modules\videostab\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>..\..\..\000Lib\SFML-2.5.0\lib;..\..\..\000Lib\opencv\builds;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-audio.lib;sfml-graphics.lib;sfml-main.lib;sfml-system.lib;sfml-window.lib;lib\Release\opencv_imgproc400.lib;3rdparty\lib\Release\ippiw.lib;3rdparty\ippicv\ippicv_win\lib\intel64\ippicvmt.lib;lib\Release\opencv_core400.lib;lib\Release\opencv_ts400.lib;lib\Release\opencv_highgui400.lib;lib\Release\opencv_videoio400.lib;lib\Release\opencv_imgcodecs400.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\FolderNavigation.cpp" />
+    <ClCompile Include="..\src\main.cpp" />
+    <ClCompile Include="..\src\Quiz.cpp" />
+    <ClCompile Include="..\src\SFML_SDK\Game.cpp" />
+    <ClCompile Include="..\src\SFML_SDK\GUI\Button.cpp" />
+    <ClCompile Include="..\src\SFML_SDK\GUI\GuiQuiz.cpp" />
+    <ClCompile Include="..\src\SFML_SDK\GUI\Minimap.cpp" />
+    <ClCompile Include="..\src\SFML_SDK\GUI\ProgressBar.cpp" />
+    <ClCompile Include="..\src\SFML_SDK\GUI\StackMenu.cpp" />
+    <ClCompile Include="..\src\SFML_SDK\GUI\Textbox.cpp" />
+    <ClCompile Include="..\src\SFML_SDK\GUI\Widget.cpp" />
+    <ClCompile Include="..\src\SFML_SDK\ResourceManager\ResourceHolder.cpp" />
+    <ClCompile Include="..\src\SFML_SDK\States\StatePlaying.cpp" />
+    <ClCompile Include="..\src\SFML_SDK\Util\Animation.cpp" />
+    <ClCompile Include="..\src\SFML_SDK\Util\FileUtil.cpp" />
+    <ClCompile Include="..\src\SFML_SDK\Util\FPSCounter.cpp" />
+    <ClCompile Include="..\src\SFML_SDK\Util\Maths.cpp" />
+    <ClCompile Include="..\src\SFML_SDK\Util\ToggleKey.cpp" />
+    <ClCompile Include="..\src\tinyfiledialogs\tinyfiledialogs.c" />
+    <ClCompile Include="..\src\tinyxml2\tinyxml2.cpp" />
+    <ClCompile Include="..\src\UIMain.cpp" />
+    <ClCompile Include="..\src\UIState.cpp" />
+    <ClCompile Include="..\src\VideoCapture.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\Config.hpp" />
+    <ClInclude Include="..\src\filesystem\fwd.h" />
+    <ClInclude Include="..\src\filesystem\path.h" />
+    <ClInclude Include="..\src\filesystem\resolver.h" />
+    <ClInclude Include="..\src\filesystem\windirent.h" />
+    <ClInclude Include="..\src\FolderNavigation.h" />
+    <ClInclude Include="..\src\ini_parser\ini_parser.hpp" />
+    <ClInclude Include="..\src\Quiz.h" />
+    <ClInclude Include="..\src\SFML_SDK\Game.h" />
+    <ClInclude Include="..\src\SFML_SDK\GUI\Button.h" />
+    <ClInclude Include="..\src\SFML_SDK\GUI\GuiQuiz.h" />
+    <ClInclude Include="..\src\SFML_SDK\GUI\Minimap.h" />
+    <ClInclude Include="..\src\SFML_SDK\GUI\ProgressBar.h" />
+    <ClInclude Include="..\src\SFML_SDK\GUI\StackMenu.h" />
+    <ClInclude Include="..\src\SFML_SDK\GUI\Textbox.h" />
+    <ClInclude Include="..\src\SFML_SDK\GUI\Widget.h" />
+    <ClInclude Include="..\src\SFML_SDK\ResourceManager\ResourceHolder.h" />
+    <ClInclude Include="..\src\SFML_SDK\ResourceManager\ResourceManager.h" />
+    <ClInclude Include="..\src\SFML_SDK\States\StateBase.h" />
+    <ClInclude Include="..\src\SFML_SDK\States\StatePlaying.h" />
+    <ClInclude Include="..\src\SFML_SDK\Util\Animation.h" />
+    <ClInclude Include="..\src\SFML_SDK\Util\FileUtil.h" />
+    <ClInclude Include="..\src\SFML_SDK\Util\FPSCounter.h" />
+    <ClInclude Include="..\src\SFML_SDK\Util\Maths.h" />
+    <ClInclude Include="..\src\SFML_SDK\Util\NonCopyable.h" />
+    <ClInclude Include="..\src\SFML_SDK\Util\NonMoveable.h" />
+    <ClInclude Include="..\src\SFML_SDK\Util\Random.h" />
+    <ClInclude Include="..\src\SFML_SDK\Util\ToggleKey.h" />
+    <ClInclude Include="..\src\tinyfiledialogs\tinyfiledialogs.h" />
+    <ClInclude Include="..\src\tinyxml2\tinyxml2.h" />
+    <ClInclude Include="..\src\UIMain.h" />
+    <ClInclude Include="..\src\UIState.h" />
+    <ClInclude Include="..\src\VideoCapture.hpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

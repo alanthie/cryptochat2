@@ -1,10 +1,19 @@
 #  ------------------------------------------------------
 #  SET THE FOLDER where repositories are
-#	 if your downloaded in /home/allaptop/tmp2/cryptochatal
-#	 then FOLDER="/home/allaptop/tmp2"
+#	 if your downloaded in /home/allaptop/dev/cryptochat2
+#	 then FOLDER="/home/allaptop/dev"
+#	
+#	
 #  ------------------------------------------------------
-FOLDER="/home/allaptop/tmp2"
+FOLDER="/home/allaptop/dev"
 
+if [ -d "${FOLDER}" ]; then
+	echo "Using directory ${FOLDER}"
+else
+	echo "Directory not set"
+	exit
+fi
+	
 function install_pkg()
 {
 	status="$(dpkg-query -W --showformat='${db:Status-Status}' "$1" 2>&1)"
@@ -75,7 +84,7 @@ else
 	cd build
 	cmake ..
 	make
-	#sudo make install
+  sudo make install
 fi
 	
 git_clone  https://github.com/ckormanyos/wide-integer.git "${FOLDER}/wide-integer"
@@ -103,12 +112,12 @@ fi
 
 
 #  ------------------------------------------------------
-#  cryptochatal
+#  cryptochat2
 #  ------------------------------------------------------
-# git_clone   https://github.com/alanthie/cryptochatal.git "${FOLDER}/cryptochatal"
-cd "${FOLDER}/cryptochatal"
-if [ -d "${FOLDER}/cryptochatal/build" ]; then
-	echo "Directory already exist ${FOLDER}/cryptochatal/build ..."
+# git_clone   https://github.com/alanthie/cryptochat2.git "${FOLDER}/cryptochat2"
+cd "${FOLDER}/cryptochat2"
+if [ -d "${FOLDER}/cryptochat2/build" ]; then
+	echo "Directory already exist ${FOLDER}/cryptochat2/build ..."
 else
 	mkdir build
 	cd build
@@ -129,7 +138,7 @@ if [ -f "${FOLDER}/ntl/src/ntl.a" ]; then
 else
 	./configure 
 	make
-	# sudo make install
+	sudo make install
 fi
 
 git_clone   https://github.com/alanthie/Encryptions.git "${FOLDER}/Encryptions"

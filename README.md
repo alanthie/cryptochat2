@@ -16,3 +16,10 @@ Documentation
 <pre>
 Documentation: see cryptochat initial repository
 </pre>
+
+License
+<pre>
+Free for personal usage
+License required for commercial usage
+</pre>
+

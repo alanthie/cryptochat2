@@ -1,5 +1,5 @@
 # CryptoChat2
-A chating application (client and server) with encryption-decryption
+A chat application (client and server) with encryption-decryption
 
 Building (for linux)
 <pre>

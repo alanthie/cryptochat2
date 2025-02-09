@@ -7,6 +7,7 @@
 #include "crypto_strutil.hpp"
 #include "includes.h" // makehex
 #include <filesystem>
+#include <vector>
 
 namespace file_util
 {

@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.22)
 project(lnx_chatcli)
 
 set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -O3")
 
 #add_compile_options(-g )
 #add_compile_options(-fsanitize=address )

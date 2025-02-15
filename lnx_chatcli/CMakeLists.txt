@@ -20,7 +20,9 @@ include_directories(CURL_INCLUDE_DIRS)
 set(CMAKE_REQUIRED_LIBRARIES "${CURL_LIBRARIES}")
 list(APPEND LIBS "${CURL_LIBRARIES}")
 
+# Many distros path
 LINK_DIRECTORIES(
+	/usr/lib64 
 	/usr/lib/x86_64-linux-gnu   
 #	/home/allaptop/dev/notcurses/build  
 	"$ENV{HOME}/dev/notcurses/build"       
@@ -77,7 +79,7 @@ link_libraries(gmp curl openssl nghttp2 gssapi2 pthread notcurses notcurses-core
 
 
 target_link_libraries(lnx_chatcli
-		/usr/lib/x86_64-linux-gnu/libgmp.a
+		libgmp.a
 		"$ENV{HOME}/dev/notcurses/build/libnotcurses.a"
 		"$ENV{HOME}/dev/notcurses/build/libnotcurses-core.a"
 		pthread

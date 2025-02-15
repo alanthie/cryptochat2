@@ -16,7 +16,8 @@ include_directories(CURL_INCLUDE_DIRS)
 set(CMAKE_REQUIRED_LIBRARIES "${CURL_LIBRARIES}")
 list(APPEND LIBS "${CURL_LIBRARIES}")
 
-LINK_DIRECTORIES(/usr/lib/x86_64-linux-gnu)
+# Many distros path
+LINK_DIRECTORIES(/usr/lib64 /usr/lib/x86_64-linux-gnu)
 
 include_directories(../../wide-decimal ../wide-integer /usr/include)
 
@@ -73,7 +74,7 @@ add_executable(lnx_chatsrv
 link_libraries(gmp curl openssl nghttp2 gssapi2 pthread event event_pthreads ${LIBS})
 
 target_link_libraries(lnx_chatsrv
- /usr/lib/x86_64-linux-gnu/libgmp.a
+ libgmp.a
  pthread
  "$ENV{HOME}/dev/libevent/build/lib/libevent.a"
  "$ENV{HOME}/dev/libevent/build/lib/libevent_pthreads.a"

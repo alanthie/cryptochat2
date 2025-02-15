@@ -1,6 +1,8 @@
 # CMakeLists.txt at root folder
 cmake_minimum_required (VERSION 3.22)
 
+# TODO Arch build SFML 2.x from sources...
+
 #-----------------------Options--------------------------------------
 #option (mediaviewer_WITH_SSL "[mediaviewer] Support working with SSL" ON)
 #option (mediaviewer_PURE_CORE "[mediaviewer] Only pure core" OFF)
@@ -50,7 +52,17 @@ set (LIBRARIES
 
 #------------------------ OpenCV --------------------------
 #/usr/lib/x86_64-linux-gnu/cmake/opencv4
-set(OpenCV_DIR /usr/lib/x86_64-linux-gnu/cmake/opencv4)
+# Many distros path /usr/lib64 /usr/lib
+if(IS_DIRECTORY "/usr/lib64/cmake/opencv4")
+ set(OpenCV_DIR /usr/lib64/cmake/opencv4)
+endif()
+if(IS_DIRECTORY "/usr/lib/cmake/opencv4")
+ set(OpenCV_DIR /usr/lib/cmake/opencv4)
+endif()
+if(IS_DIRECTORY "/usr/lib/x86_64-linux-gnu/cmake/opencv4")
+ set(OpenCV_DIR /usr/lib/x86_64-linux-gnu/cmake/opencv4)
+endif()
+#set(OpenCV_DIR /usr/lib/x86_64-linux-gnu/cmake/opencv4)
 
 find_package(OpenCV REQUIRED)
 include_directories(${OpenCV_INCLUDE_DIRS})

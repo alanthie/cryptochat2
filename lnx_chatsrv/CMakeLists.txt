@@ -73,8 +73,17 @@ add_executable(lnx_chatsrv
 
 link_libraries(gmp curl openssl nghttp2 gssapi2 pthread event event_pthreads ${LIBS})
 
+if(EXISTS /usr/lib/x86_64-linux-gnu/libgmp.a)
+  set(GMPLIB libgmp.a)
+else()
+  set(GMPLIB gmp)
+endif()
+if(EXISTS /usr/lib64/libgmp.a)
+  set(GMPLIB libgmp.a)
+endif()
+
 target_link_libraries(lnx_chatsrv
- libgmp.a
+ ${GMPLIB}
  pthread
  "$ENV{HOME}/dev/libevent/build/lib/libevent.a"
  "$ENV{HOME}/dev/libevent/build/lib/libevent_pthreads.a"

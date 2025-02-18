@@ -77,17 +77,41 @@ add_executable(lnx_chatcli
 
 link_libraries(gmp curl openssl nghttp2 gssapi2 pthread notcurses notcurses-core unistring deflate tinfo  ${LIBS})
 
+if(EXISTS /usr/lib/x86_64-linux-gnu/libgmp.a)
+  set(GMPLIB libgmp.a)
+else()
+  set(GMPLIB gmp)
+endif()
+if(EXISTS /usr/lib64/libgmp.a)
+  set(GMPLIB libgmp.a)
+endif()
+
+if(EXISTS /usr/lib/x86_64-linux-gnu/libdeflate.a)
+  set(DEFLATELIB libdeflate.a)
+else()
+  set(DEFLATELIB deflate)
+endif()
+if(EXISTS /usr/lib64/libdeflate.a)
+  set(DEFLATELIB libdeflate.a)
+endif()
+
+if(EXISTS /usr/lib/x86_64-linux-gnu/libtinfo.a)
+  set(TINFOLIB libtinfo.a)
+else()
+  set(TINFOLIB tinfo)
+endif()
+if(EXISTS /usr/lib64/libtinfo.a)
+  set(TINFOLIB libtinfo.a)
+endif()
 
 target_link_libraries(lnx_chatcli
-		libgmp.a
+		${GMPLIB}
 		"$ENV{HOME}/dev/notcurses/build/libnotcurses.a"
 		"$ENV{HOME}/dev/notcurses/build/libnotcurses-core.a"
 		pthread
 		unistring
-		/usr/lib/x86_64-linux-gnu/libdeflate.a
-		/usr/lib/x86_64-linux-gnu/libtinfo.a
-#		deflate
-#		tinfo
+		${DEFLATELIB}
+		${TINFOLIB}
 #		-static-libstdc++
 		${LIBS}
 )

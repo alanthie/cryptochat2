@@ -24,7 +24,7 @@ list(APPEND LIBS "${CURL_LIBRARIES}")
 LINK_DIRECTORIES(
 	/usr/lib64 
 	/usr/lib/x86_64-linux-gnu   
-	"${CMAKE_CURRENT_SOURCE_DIR}/../../dev/notcurses/build"       
+	"${CMAKE_CURRENT_SOURCE_DIR}/../../notcurses/build"       
 )
 
 include_directories(

@@ -24,8 +24,7 @@ list(APPEND LIBS "${CURL_LIBRARIES}")
 LINK_DIRECTORIES(
 	/usr/lib64 
 	/usr/lib/x86_64-linux-gnu   
-#	/home/allaptop/dev/notcurses/build  
-	"$ENV{HOME}/dev/notcurses/build"       
+	"${CMAKE_CURRENT_SOURCE_DIR}/../../dev/notcurses/build"       
 )
 
 include_directories(
@@ -54,9 +53,9 @@ add_executable(lnx_chatcli
         ../include/SymAlg.cpp
         ../include/AESa.cpp
         ../include/exclusive-lock-file.cpp
-				../include/qa/SystemProperties.cpp
-				../src/client_term.cpp
-				../src/nc_terminal.cpp
+	../include/qa/SystemProperties.cpp
+	../src/client_term.cpp
+	../src/nc_terminal.cpp
         ../include/qa/Bin2PNG/lodepng.cpp
         ../include/qa/RSA-GMP/RSAGMP.cpp
         ../include/qa/RSA-GMP/RSAGMPPrime.cpp
@@ -106,8 +105,8 @@ endif()
 
 target_link_libraries(lnx_chatcli
 		${GMPLIB}
-		"$ENV{HOME}/dev/notcurses/build/libnotcurses.a"
-		"$ENV{HOME}/dev/notcurses/build/libnotcurses-core.a"
+		libnotcurses.a
+		libnotcurses-core.a
 		pthread
 		unistring
 		${DEFLATELIB}

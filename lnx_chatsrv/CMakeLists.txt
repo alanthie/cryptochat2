@@ -17,7 +17,10 @@ set(CMAKE_REQUIRED_LIBRARIES "${CURL_LIBRARIES}")
 list(APPEND LIBS "${CURL_LIBRARIES}")
 
 # Many distros path
-LINK_DIRECTORIES(/usr/lib64 /usr/lib/x86_64-linux-gnu)
+LINK_DIRECTORIES(	/usr/lib64 
+			/usr/lib/x86_64-linux-gnu
+   			"${CMAKE_CURRENT_SOURCE_DIR}/../../libevent/build/lib"
+   )
 
 include_directories(../../wide-decimal ../wide-integer /usr/include)
 
@@ -49,7 +52,7 @@ add_executable(lnx_chatsrv
         ../include/DES.cpp
         ../include/SymAlg.cpp
         ../include/exclusive-lock-file.cpp
-	      ../include/qa/SystemProperties.cpp
+	../include/qa/SystemProperties.cpp
 
         ../include/qa/Bin2PNG/lodepng.cpp
         ../include/qa/RSA-GMP/RSAGMP.cpp
@@ -85,8 +88,8 @@ endif()
 target_link_libraries(lnx_chatsrv
  ${GMPLIB}
  pthread
- "$ENV{HOME}/dev/libevent/build/lib/libevent.a"
- "$ENV{HOME}/dev/libevent/build/lib/libevent_pthreads.a"
+ libevent.a
+ libevent_pthreads.a
 # event
 # event_pthreads
  ${LIBS}

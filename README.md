@@ -5,6 +5,8 @@ Building (for linux)
 <pre>
 Edit lnx_build.sh : set your root folder
 launch ./lnx_build.sh
+
+See build_all repository for latest way to build on most distros
 </pre>
 
 Running

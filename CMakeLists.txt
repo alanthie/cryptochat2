@@ -4,12 +4,16 @@ project(chatroot)
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -O3")
 
+option(BUILD_MEDIAVIEWER "Build mediaviewer" ON)
+
 include_directories(~/dev/libevent/include )
 link_directories(~/dev/libevent/build/lib)
 
 add_subdirectory(lnx_chatsrv)
 add_subdirectory(lnx_chatcli)
-add_subdirectory(mediaviewer)
+if(${BUILD_MEDIAVIEWER})
+	add_subdirectory(mediaviewer)
+endif()
 add_subdirectory(subprocess/test)
 
 add_custom_target(ipcbuild ALL 
